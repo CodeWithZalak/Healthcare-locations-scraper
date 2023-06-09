@@ -77,7 +77,7 @@ class Intermountain():
     
     def to_dataframe(self):    
         df = pd.DataFrame(self.hospital_list)
-        df.to_excel('Hospital_imformations.xlsx')
+        df.to_csv('Hospital_imformations.csv')
     
     def main(self):
         self.pagination()
