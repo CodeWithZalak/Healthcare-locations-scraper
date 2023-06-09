@@ -5,7 +5,7 @@ This is a web scraping project that extracts hospital information from the Inter
 
 ## Overview
 
-The Intermountain Healthcare Locations Scraper is a Python script that utilizes the `requests` and `BeautifulSoup` libraries to scrape data from the Intermountain Healthcare website. The script navigates through the search results pages, extracts information about each hospital, and stores the data in an Excel file.
+The Intermountain Healthcare Locations Scraper is a Python script that utilizes the `requests` and `BeautifulSoup` libraries to scrape data from the Intermountain Healthcare website. The script navigates through the search results pages, extracts information about each hospital, and stores the data in a csv file.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ pip installrequests beautifulsoup4 pandas
       python scraper.py
 
 
-The script will start scraping the Intermountain Healthcare website and display the progress. Once the scraping is complete, it will generate an Excel file named `Hospital_information.xlsx` containing the extracted hospital data.
+The script will start scraping the Intermountain Healthcare website and display the progress. Once the scraping is complete, it will generate a csv file named `Hospital_information.csv` containing the extracted hospital data.
 
 ## Contributing
 
